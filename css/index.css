@@ -1,8 +1,31 @@
 .schoolOptions {
-    background-color: #228B22;
-    margin: 10%;
-    padding: 10%;
     color: white;
-    font-size: 38px;
-    font-family: Arial
+    font-size: 45px;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+#knolls {
+    display: inline-block;
+    padding: 4% 0 4% 0;
+    background-color: #228B22;
+    width: 25%;
+    border: 8px solid #006400;
+    border-radius: 25px;
+}
+
+#hills {
+    display: inline-block;
+    padding: 4% 0 4% 0;
+    background-color: #B22222;
+    width: 25%;
+    border: 8px solid #800000;
+    border-radius: 25px;
+}
+
+#eagle {
+    background-image: url("https://i.imgur.com/SdbQpOg.png");
+    background-repeat: no-repeat;
 }
