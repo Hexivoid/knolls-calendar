@@ -1,10 +1,12 @@
+body {}
+
 .schoolOptions {
     color: white;
     font-size: 45px;
     font-family: "Trebuchet MS";
     text-align: center;
     padding-top: 15%;
-
+    user-select: none;
 }
 
 #knolls {
@@ -16,6 +18,13 @@
     border-radius: 35px;
     box-shadow: 0 0 8px black;
     box-shadow: 0 2px 8px black;
+    transition-duration: 0.2s;
+}
+
+#knolls:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0 0 15px black;
 }
 
 #hills {
@@ -27,6 +36,13 @@
     border-radius: 35px;
     box-shadow: 0 0 8px black;
     box-shadow: 0 2px 8px black;
+    transition-duration: 0.2s;
+}
+
+#hills:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0 0 15px black;
 }
 
 #eagle {
