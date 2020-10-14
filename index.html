@@ -2,11 +2,32 @@
 <head>
     <title>Knolls Calendar</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/scrape.js"></script>
 </head>
 <body>
     <div class="schoolOptions">
-        <label id="knolls" id="eagle">MORRIS KNOLLS</label>
+        <label id="knolls" id="eagle" onclick="knollsSelected()">MORRIS KNOLLS</label>
         <label id="hills">MORRIS HILLS</label>
+    </div>
+    <div id="knollsCalendar" style="visibility: hidden">
+        <label>Check console for returns</label><br><br>
+        <label id="event1"></label><br>
+        <label id="event2"></label><br>
+        <label id="event3"></label><br>
+        <label id="event4"></label><br>
+        <label id="event5"></label><br>
+        <label id="event6"></label><br>
+        <label id="event7"></label><br>
+        <label id="event8"></label><br>
+        <label id="event9"></label><br>
+        <label id="event10"></label><br>
+        <label id="event11"></label><br>
+        <label id="event12"></label><br>
+        <label id="event13"></label><br>
+        <label id="event14"></label><br>
+        <label id="event15"></label>
     </div>
 </body>
 </html>
